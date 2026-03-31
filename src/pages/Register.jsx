@@ -89,6 +89,14 @@ export default function Register({ onSwitch }) {
         padding: "40px 20px",
         animation: "slideUp 0.4s ease",
       }}>
+        <div style={{ textAlign: "center", marginBottom: 24 }}>
+          <img
+            src="./assets/logo.png"
+            alt="VaultKey"
+            style={{ width: 180, height: "auto", marginBottom: 8 }}
+          />
+        </div>
+
         <div style={{
           background: "rgba(255,255,255,0.92)",
           backdropFilter: "blur(12px)",
@@ -187,6 +195,14 @@ export default function Register({ onSwitch }) {
         padding: "40px 20px",
         animation: "slideUp 0.4s ease",
       }}>
+        <div style={{ textAlign: "center", marginBottom: 24 }}>
+          <img
+            src="./assets/logo.png"
+            alt="VaultKey"
+            style={{ width: 180, height: "auto", marginBottom: 8 }}
+          />
+        </div>
+
         <div style={{
           background: "rgba(255,255,255,0.92)",
           backdropFilter: "blur(12px)",
@@ -221,9 +237,11 @@ export default function Register({ onSwitch }) {
       animation: "slideUp 0.4s ease",
     }}>
       <div style={{ textAlign: "center", marginBottom: 32 }}>
-        <h1 style={{ fontSize: 28, fontWeight: 700, letterSpacing: -0.5, color: "#fff", textShadow: "0 2px 8px rgba(0,0,0,0.5)" }}>
-          🔐 VaultKey
-        </h1>
+        <img
+          src="./assets/logo.png"
+          alt="VaultKey"
+          style={{ width: 180, height: "auto", marginBottom: 8 }}
+        />
         <p style={{ fontSize: 14, color: "rgba(255,255,255,0.8)", marginTop: 6 }}>
           Crea tu bóveda segura
         </p>

@@ -123,9 +123,11 @@ export default function Login({ onSwitch }) {
         animation: "slideUp 0.4s ease",
       }}>
         <div style={{ textAlign: "center", marginBottom: 32 }}>
-          <h1 style={{ fontSize: 28, fontWeight: 700, letterSpacing: -0.5, color: "#fff", textShadow: "0 2px 8px rgba(0,0,0,0.5)" }}>
-            🔑 Recuperar bóveda
-          </h1>
+          <img
+            src="./assets/logo.png"
+            alt="VaultKey"
+            style={{ width: 180, height: "auto", marginBottom: 8 }}
+          />
           <p style={{ fontSize: 14, color: "rgba(255,255,255,0.8)", marginTop: 6 }}>
             {recoveryStep === 1
               ? "Introduce tu email y clave de recuperación"
@@ -254,9 +256,11 @@ export default function Login({ onSwitch }) {
       animation: "slideUp 0.4s ease",
     }}>
       <div style={{ textAlign: "center", marginBottom: 32 }}>
-        <h1 style={{ fontSize: 28, fontWeight: 700, letterSpacing: -0.5, color: "#fff", textShadow: "0 2px 8px rgba(0,0,0,0.5)" }}>
-          🔐 VaultKey
-        </h1>
+        <img
+          src="./assets/logo.png"
+          alt="VaultKey"
+          style={{ width: 180, height: "auto", marginBottom: 8 }}
+        />
         <p style={{ fontSize: 14, color: "rgba(255,255,255,0.8)", marginTop: 6 }}>
           Desbloquea tu bóveda
         </p>
